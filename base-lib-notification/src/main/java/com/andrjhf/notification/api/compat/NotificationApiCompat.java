@@ -9,7 +9,7 @@ import android.app.Service;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 
 public class NotificationApiCompat {
@@ -227,7 +227,7 @@ public class NotificationApiCompat {
          * @param content
          * @return
          */
-        private android.support.v4.app.NotificationCompat.Builder getNotification_25(Context context) {
+        private NotificationCompat.Builder getNotification_25(Context context) {
             return new NotificationCompat.Builder(context);
         }
 
